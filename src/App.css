@@ -1,0 +1,22 @@
+/* Custom styles for responsive design */
+.responsive-table .ant-table-thead > tr > th,
+.responsive-table .ant-table-tbody > tr > td {
+  padding: 12px 8px;
+}
+
+@media (max-width: 768px) {
+  .responsive-table .ant-table-thead > tr > th,
+  .responsive-table .ant-table-tbody > tr > td {
+    padding: 8px 4px;
+    font-size: 14px;
+  }
+}
+
+/* Ensure modal is responsive */
+.ant-modal {
+  max-width: 95vw;
+}
+
+.ant-modal-content {
+  border-radius: 8px;
+}
